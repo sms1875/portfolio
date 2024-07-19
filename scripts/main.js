@@ -16,42 +16,88 @@ document.addEventListener("DOMContentLoaded", () => {
           nextElement = nextElement.nextElementSibling;
         }
 
-        if (sectionTitle === "소개") {
+        if (sectionTitle === "About Me") {
           document.getElementById("about-content").innerHTML = sectionContent;
-        } else if (sectionTitle === "기술 스택") {
+        } else if (sectionTitle === "Skills") {
           document.getElementById("skills-content").innerHTML = sectionContent;
-        } else if (sectionTitle === "프로젝트") {
+        } else if (sectionTitle === "Projects") {
           const projectList = document.getElementById("project-list");
           const tempDiv = document.createElement("div");
           tempDiv.innerHTML = sectionContent;
-          const projectTitles = tempDiv.querySelectorAll("h3");
-          projectTitles.forEach((title) => {
-            const description = title.nextElementSibling
-              ? title.nextElementSibling.innerText
-              : "";
+
+          const projectCards = tempDiv.querySelectorAll("h3");
+          projectCards.forEach((card) => {
+            let description = "";
+            let techStack = "";
+            let projectLink = "";
+
+            let nextElement = card.nextElementSibling;
+
+            while (nextElement && nextElement.tagName !== "H3") {
+              if (nextElement.tagName === "P" || nextElement.tagName === "UL") {
+                // 이미지가 있는 경우
+                if (nextElement.querySelectorAll("img").length > 0) {
+                  // Description 요소로 가정
+                  description = nextElement.innerHTML;
+                } else {
+                  // 목록 항목으로 가정
+                  const listItems = nextElement.querySelectorAll("li");
+                  listItems.forEach((item) => {
+                    const strongText = item.querySelector("strong").innerText;
+                    const itemText = item.innerText
+                      .replace(strongText, "")
+                      .trim();
+
+                    if (strongText.includes("Description")) {
+                      description = itemText;
+                    } else if (strongText.includes("Tech Stack")) {
+                      techStack = itemText;
+                    } else if (strongText.includes("Link")) {
+                      projectLink = item.querySelector("a")
+                        ? item.querySelector("a").href
+                        : itemText;
+                    }
+                  });
+                }
+              }
+              nextElement = nextElement.nextElementSibling;
+            }
+
             projectList.innerHTML += `
-                            <div class="col-md-4">
-                                <div class="card mb-4">
-                                    <div class="card-body">
-                                        <h5 class="card-title">${title.innerText}</h5>
-                                        <p class="card-text">${description}</p>
-                                    </div>
-                                </div>
-                            </div>`;
+              <div class="col-12"> <!-- 1칸 넓이 설정 -->
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">${card.innerText}</h5>
+                    <div class="card-images">
+                      ${Array.from(
+                        card.nextElementSibling.querySelectorAll("img")
+                      )
+                        .map(
+                          (img) =>
+                            `<img src="${img.src}" alt="프로젝트 이미지">`
+                        )
+                        .join("")}
+                    </div>
+                    <p class="card-text"><strong>설명:</strong> ${description}</p>
+                    <p class="card-text"><strong>기술 스택:</strong> ${techStack}</p>
+                    ${
+                      projectLink
+                        ? `<p class="card-text"><strong>Link:</strong> <a href="${projectLink}" target="_blank">${projectLink}</a></p>`
+                        : ""
+                    }
+                  </div>
+                </div>
+              </div>`;
           });
-        } else if (sectionTitle === "경력") {
+        } else if (sectionTitle === "Experience") {
           document.getElementById("experience-content").innerHTML =
             sectionContent;
-        } else if (sectionTitle === "교육") {
+        } else if (sectionTitle === "Education") {
           document.getElementById("education-content").innerHTML =
             sectionContent;
-        } else if (sectionTitle === "수상 내역") {
-          document.getElementById("awards-content").innerHTML = sectionContent;
-        } else if (sectionTitle === "자격증") {
+        } else if (sectionTitle === "Certifications") {
           document.getElementById("certifications-content").innerHTML =
             sectionContent;
-        } else if (sectionTitle === "연락처") {
-          document.getElementById("contact-content").innerHTML = sectionContent;
         }
       });
     })

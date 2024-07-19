@@ -1,52 +1,57 @@
-# 링크
-- **깃허브 포트폴리오 사이트:** <https://sms1875.github.io/portfolio/>
-- **프로그래머스 이력서:** <https://career.programmers.co.kr/pr/01audtjr_9874>
+## About Me
 
-# 포트폴리오
+| ![프로필 사진](https://placehold.co/160x200.jpg) | 안녕하세요! 저는 웹 개발자입니다. 다양한 프로젝트를 진행하며 경험을 쌓아왔습니다. 제 포트폴리오 사이트에서 더 많은 정보를 확인하실 수 있습니다. |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 
-## 소개
-안녕하세요! 저는 웹 개발자입니다. 다양한 프로젝트를 진행하며 경험을 쌓아왔습니다. 제 포트폴리오 사이트에서 더 많은 정보를 확인하실 수 있습니다.
+## Skills
 
-## 기술 스택
-- **프론트엔드:** HTML, CSS, JavaScript, React, Bootstrap
-- **백엔드:** Node.js, Express
-- **데이터베이스:** MongoDB, MySQL
-- **기타:** Git, Webpack, Docker
+- **Frontend:** ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white) ![Unity](https://img.shields.io/badge/Unity-100000?style=flat&logo=unity&logoColor=white)
+- **Backend:** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+- **Database:** ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black) ![MsSQL](https://img.shields.io/badge/MsSQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+- **Others:** ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 
-## 프로젝트
-### 프로젝트 1: 웹 쇼핑몰
-- **설명:** React와 Node.js를 사용하여 개발한 풀스택 웹 쇼핑몰입니다. 사용자 인증, 상품 관리, 주문 처리 등의 기능을 구현했습니다.
-- **기술 스택:** React, Node.js, Express, MongoDB
-- **링크:** [프로젝트 보기](https://github.com/username/project1)
+## Projects
 
-### 프로젝트 2: 블로그 플랫폼
-- **설명:** 개인 블로그 플랫폼을 개발하여 다양한 글을 작성하고 관리할 수 있습니다. 사용자별로 프로필을 관리하고, 댓글 기능을 추가했습니다.
-- **기술 스택:** HTML, CSS, JavaScript, Node.js, MySQL
-- **링크:** [프로젝트 보기](https://github.com/username/project2)
+### Web Shopping Mall
+![프로필 사진](https://placehold.co/160x200.jpg) ![프로필 사진](https://placehold.co/160x200.jpg) 
+- **Description:** React와 Node.js를 사용하여 개발한 풀스택 웹 쇼핑몰입니다. 사용자 인증, 상품 관리, 주문 처리 등의 기능을 구현했습니다.
+- **Tech Stack:** React, Node.js, Express, MongoDB
+- **Link:** [https://github.com/sms1875/portfolio/tree/main](https://github.com/sms1875/portfolio/tree/main)
 
-## 경력
-### ABC 회사 (2020.01 - 현재)
-- **직책:** 웹 개발자
-- **업무:** 다양한 웹 프로젝트를 기획하고 개발하였습니다. 프론트엔드와 백엔드 모두에서 작업을 하며, 주로 React와 Node.js를 사용하였습니다.
+### Test
+![프로필 사진](https://placehold.co/160x200.jpg) ![프로필 사진](https://placehold.co/160x200.jpg) 
+- **Description:** React와 Node.js를 사용하여 개발한 풀스택 웹 쇼핑몰입니다. 사용자 인증, 상품 관리, 주문 처리 등의 기능을 구현했습니다.
+- **Tech Stack:** React, Node.js, Express, MongoDB
+- **Link:** [https://github.com/sms1875/portfolio/tree/main](https://github.com/sms1875/portfolio/tree/main)
 
-### XYZ 스타트업 (2018.06 - 2019.12)
-- **직책:** 프론트엔드 개발자
-- **업무:** 사용자 인터페이스 설계 및 구현, 반응형 웹 디자인 적용. HTML, CSS, JavaScript를 주로 사용하였습니다.
+### Test
+![프로필 사진](https://placehold.co/160x200.jpg) 
+- **Description:** React와 Node.js를 사용하여 개발한 풀스택 웹 쇼핑몰입니다. 사용자 인증, 상품 관리, 주문 처리 등의 기능을 구현했습니다.
+- **Tech Stack:** React, Node.js, Express, MongoDB
 
-## 교육
-- **컴퓨터공학 학사** - 한국대학교 (2014 - 2018)
-- **웹 개발 부트캠프 수료** - ABC 코딩 아카데미 (2019)
+### Test
+- **Description:** React와 Node.js를 사용하여 개발한 풀스택 웹 쇼핑몰입니다. 사용자 인증, 상품 관리, 주문 처리 등의 기능을 구현했습니다.
+- **Tech Stack:** React, Node.js, Express, MongoDB
 
-## 수상 내역
-- **웹 개발 공모전** - 대상 (2020)
-- **해커톤** - 최우수상 (2019)
+## Experience
 
-## 자격증
-- **정보처리기사** (2019)
-- **웹 개발 전문가** (2020)
+### ABC Company (Jan 2020 - Present)
 
-## 연락처
-- **이메일:** example@example.com
-- **전화:** 010-1234-5678
-- **링크드인:** [LinkedIn 프로필](https://www.linkedin.com/in/username/)
-- **깃허브:** [GitHub 프로필](https://github.com/username)
+- **Role:** Web Developer
+- **Responsibilities:** 다양한 웹 프로젝트를 기획하고 개발하였습니다. 프론트엔드와 백엔드 모두에서 작업을 하며, 주로 React와 Node.js를 사용하였습니다.
+
+### XYZ Startup (Jun 2018 - Dec 2019)
+
+- **Role:** Frontend Developer
+- **Responsibilities:** 사용자 인터페이스 설계 및 구현, 반응형 웹 디자인 적용. HTML, CSS, JavaScript를 주로 사용하였습니다.
+
+## Education
+
+- **Bachelor's Degree in Computer Engineering** - Korea University (2014 - 2018)
+- **충북대학교 졸업** - ABC Coding Academy (2017-2022)
+
+## Certifications
+
+- **Information Processing Engineer** (2024)
+- **OPIC IM2** (2024)
+- **TOPCIT Level 3** (2021)
