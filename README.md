@@ -1,3 +1,7 @@
+# 링크
+- **깃허브 포트폴리오 사이트:** <https://sms1875.github.io/portfolio/>
+- **프로그래머스 이력서:** <https://career.programmers.co.kr/pr/01audtjr_9874>
+
 # 포트폴리오
 
 ## 소개
