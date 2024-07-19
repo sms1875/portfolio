@@ -1,52 +1,215 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  padding-top: 70px;
+  scroll-padding-top: 70px;
 }
 
-header {
-  background: #007bff;
-  color: white;
+#top {
+  position: absolute;
+  top: 0;
 }
 
-header img {
-  width: 160px;
-  height: 200px;
+.navbar {
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+  transition: all 0.3s ease;
 }
 
-h2 {
-  border-bottom: 2px solid #333;
-  padding-bottom: 10px;
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2575fc !important;
+}
+
+.navbar-nav .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #2575fc !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar.scrolled {
+  padding: 10px 0;
 }
 
 section {
-  padding-top: 70px; /* 네비게이션 바의 높이와 맞추기 */
-  margin-top: -70px; /* 여백을 확보하기 위해 음수 마진 추가 */
+  scroll-margin-top: 70px;
+}
+
+header {
+  background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+}
+
+#home {
+  background-image: url("path/to/your/background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home h1 {
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#home p {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-outline-light {
+  border-width: 2px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #2575fc;
+}
+h1,
+h2 {
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #2575fc;
+  border-color: #2575fc;
+}
+
+.btn-primary:hover {
+  background-color: #1a5fcf;
+  border-color: #1a5fcf;
 }
 
 .card {
   border: none;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .card-img-top {
-  border-radius: 10px 10px 0 0;
   height: 200px;
   object-fit: cover;
 }
 
-.card-body {
-  padding: 20px;
+#skills-content {
+  padding: 10px;
+  margin: 0 auto;
 }
 
-.card-title {
-  font-size: 1.25rem;
-  font-weight: bold;
+#skills-content img {
+  height: 50px;
+  margin: 10px;
+}
+.project-card {
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.card-text {
-  font-size: 0.875rem;
+.project-card:hover {
+  transform: translateY(-5px);
 }
 
-#contact-form .form-label {
-  font-weight: bold;
+.project-card .card-body {
+  padding: 1.5rem;
+}
+
+.project-images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.project-images img {
+  max-width: 320px;
+  height: auto;
+  margin: 0 5px;
+  border-radius: 4px;
+}
+
+.project-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-card .card-text {
+  margin-bottom: 0.5rem;
+}
+
+.project-card .btn {
+  margin-top: 1rem;
+}
+
+#experience-content,
+#education-content,
+#certifications-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.email-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #2575fc;
+}
+
+.email-link i {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
 }

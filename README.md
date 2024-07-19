@@ -3,8 +3,9 @@
 
 ## About Me
 
-| ![프로필 사진](https://placehold.co/160x200.jpg) | 안녕하세요! 저는 웹 개발자입니다. 다양한 프로젝트를 진행하며 경험을 쌓아왔습니다. 제 포트폴리오 사이트에서 더 많은 정보를 확인하실 수 있습니다. |
-| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![프로필 사진](./images/profile.jpg) | 새로운 것에 도전하는 것을 좋아하는 개발자입니다.<br>어릴 때 게임에서 느낀 즐거움을 다른 사람에게 주고 싶어서 개발자를 꿈꾸게 되었습니다.<br>다양한 분야에서 끊임없이 도전하며 프로젝트를 만들어 나가고 있습니다.<br>사용자에게 만족감과 가치를 주는 'things'를 만드는 것을 목표로 하고 있습니다. |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
 
 ## Skills
 
@@ -15,46 +16,67 @@
 
 ## Projects
 
-### Web Shopping Mall
-![프로필 사진](https://placehold.co/160x200.jpg) ![프로필 사진](https://placehold.co/160x200.jpg) 
-- **Description:** React와 Node.js를 사용하여 개발한 풀스택 웹 쇼핑몰입니다. 사용자 인증, 상품 관리, 주문 처리 등의 기능을 구현했습니다.
-- **Tech Stack:** React, Node.js, Express, MongoDB
-- **Link:** [https://github.com/sms1875/portfolio/tree/main](https://github.com/sms1875/portfolio/tree/main)
+### Game Paper
+![사진](./images/projects/gamepaper/gamepaper%20(1).jpg) ![사진](./images/projects/gamepaper/gamepaper%20(2).jpg)![사진](./images/projects/gamepaper/gamepaper%20(3).jpg) ![사진](./images/projects/gamepaper/gamepaper%20(4).jpg)![사진](./images/projects/gamepaper/gamepaper%20(5).jpg)
+- **Description:** 게임 홈페이지에서 제공되는 월페이퍼를 쉽게 모바일 기기의 잠금화면, 홈 화면에 적용하는 플러터 앱입니다
+- **Tech Stack:** Flutter, Firebase
+- **Link:** [https://play.google.com/store/apps/details?id=com.sms1875.wallpaper](https://play.google.com/store/apps/details?id=com.sms1875.wallpaper) 
 
-### Test
-![프로필 사진](https://placehold.co/160x200.jpg) ![프로필 사진](https://placehold.co/160x200.jpg) 
-- **Description:** React와 Node.js를 사용하여 개발한 풀스택 웹 쇼핑몰입니다. 사용자 인증, 상품 관리, 주문 처리 등의 기능을 구현했습니다.
-- **Tech Stack:** React, Node.js, Express, MongoDB
-- **Link:** [https://github.com/sms1875/portfolio/tree/main](https://github.com/sms1875/portfolio/tree/main)
+### BDO Things
+![사진](./images/projects/bdothings/bdothing.png)
+- **Description:** 온라인 게임 검은사막의 아이템 거래소 가격을 기준으로 가공무역 수익을 계산해주는 사이트입니다
+- **Tech Stack:** Flutter, Firebase, node.js, aws
+- **Link:** [https://github.com/sms1875/bdo_things_flutter](https://github.com/sms1875/bdo_things_flutter) 
 
-### Test
-![프로필 사진](https://placehold.co/160x200.jpg) 
-- **Description:** React와 Node.js를 사용하여 개발한 풀스택 웹 쇼핑몰입니다. 사용자 인증, 상품 관리, 주문 처리 등의 기능을 구현했습니다.
-- **Tech Stack:** React, Node.js, Express, MongoDB
 
-### Test
-- **Description:** React와 Node.js를 사용하여 개발한 풀스택 웹 쇼핑몰입니다. 사용자 인증, 상품 관리, 주문 처리 등의 기능을 구현했습니다.
-- **Tech Stack:** React, Node.js, Express, MongoDB
+### VR 체험형 미술 게임
+![사진](./images/projects/vrgame/vrgame.png)
+- **Description:**  VR 체험형 미술 게임의 컨텐츠 및 VR기기를 이용한 드로잉 툴을 제작하였습니다
+- **Tech Stack:** Unity, Oculus VR
+- **Link:** [https://www.youtube.com/watch?v=bbDlDIro5ck](https://www.youtube.com/watch?v=bbDlDIro5ck)
+
+### 러닝캣:달릴고양 리마스터 프로젝트
+![사진](./images/projects/runningcat/runningcat.png)
+- **Description:** 충북 글로벌 게임 센터에서 진행한 팀 프로젝트에 참여하여 딜리셔스 게임즈의 '러닝캣: 달릴 고양이' 게임 개선 및 추가 컨텐츠 개발을 진행하였습니다.
+- **Tech Stack:** Unity, SVN
+- **Link:** [https://cbgame.org/sub.php?code=23&mode=view&no=69&category=&page=1&search=&keyword=](https://cbgame.org/sub.php?code=23&mode=view&no=69&category=&page=1&search=&keyword=)
+
+### 졸업작품 FPS 게임
+![사진](./images/projects/subjectcapstone/subjectcapstone.png)
+- **Description:** 유닛이 체스 규칙을 통해 움직이고 이벤트가 발동하는 3D 로그라이크 FPS 게임입니다.
+- **Tech Stack:** Unity
+
+### Escape Dungeon
+![사진](./images/projects/escapedungeon/escapedungeon.png)
+- **Description:** 고양이를 피해 아이템을 얻어 탈출하는 간단한 탈출 게임입니다.
+- **Tech Stack:** Unity
+
+### 비대면 강의 중계 어플리케이션
+- **Description:** 코로나 시대로 인해 빈 공간을 대여하고 온, 오프라인 수업을 중계하는 플랫폼 개발 프로젝트입니다.
+- **Tech Stack:** Android Studio, Kotlin, Google Maps, Firebase
+- **Link:** [https://github.com/sms1875/AppProject](https://github.com/sms1875/AppProject) 
 
 ## Experience
 
-### ABC Company (Jan 2020 - Present)
+### 행복한다람쥐단 (2023.09 - 2023.12)
 
-- **Role:** Web Developer
-- **Responsibilities:** 다양한 웹 프로젝트를 기획하고 개발하였습니다. 프론트엔드와 백엔드 모두에서 작업을 하며, 주로 React와 Node.js를 사용하였습니다.
+- **Role:** 프론트엔드 개발
+- **Responsibilities:** 유니티 WebGL 메타버스 환경에서 참여할 수 있는 WebRTC 화상회의 플랫폼 개발 및 API 구현, OTP등 인증 로직 개발을 진행하였습니다.
 
-### XYZ Startup (Jun 2018 - Dec 2019)
+### 아트앤메타 (2022.10 - 2022.12)
 
 - **Role:** Frontend Developer
-- **Responsibilities:** 사용자 인터페이스 설계 및 구현, 반응형 웹 디자인 적용. HTML, CSS, JavaScript를 주로 사용하였습니다.
+- **Responsibilities:** VR 미술 게임의 컨텐츠와 드로잉 툴을 개발하였습니다.
+- **Implementation:** 플레이어 조작, NPC 상호작용, 게임 흐름 이벤트 제어, 붓 등의 오브젝트를 통한 드로잉 및 프로타주 등 다양한 미술 기법
 
 ## Education
 
-- **Bachelor's Degree in Computer Engineering** - Korea University (2014 - 2018)
-- **충북대학교 졸업** - ABC Coding Academy (2017-2022)
+- **SSAFY 12기** - Embedded Robot Track 참여중 (2024~)
+- **충북글로벌게임센터 게임아카데미** - 유니티 프로그래밍 교육 (2022)
+- **충북대학교** - 컴퓨터공학과 졸업 (2017-2022)
 
 ## Certifications
 
-- **Information Processing Engineer** (2024)
+- **정보처리기사** (2024)
 - **OPIC IM2** (2024)
 - **TOPCIT Level 3** (2021)
