@@ -1,5 +1,5 @@
 ### Link
-## 사이트 : https://sms1875.github.io/portfolio/
+https://sms1875.github.io/portfolio/
 
 ## About Me
 
