@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("README.md")
+  fetch("./README.md")
     .then((response) => response.text())
     .then((text) => {
       const htmlContent = marked.parse(text);
